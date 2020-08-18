@@ -1,0 +1,334 @@
+/* ここから下に記載していく */
+#logo{
+    float: left;
+    margin-left: 100px;
+    padding: 25px;
+
+}
+
+.cheeseworld li{
+    font-size: 21px;
+    display: inline-block;
+    width: 50px;
+    padding: 50px;
+
+}
+
+.mainvisual{
+    /* display: inline-block; */
+    /* position: relative; */
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    background-image: url("/img/mainbg.png");
+}
+
+.mainvisual__text {
+    padding-top: 200px;
+    text-align: center;
+    color: #fff;
+}
+
+.mainvisual__text h1{
+    margin-bottom: 30px;
+    font-size:42px;
+    font-weight: bold;
+}
+
+.main2{
+    padding-bottom: 60px;
+}
+
+
+.ABOUT {
+    font-size: 24px;
+    text-align: center;
+    padding: 60px;
+
+}
+
+.ABOUT p{
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+.yellow {
+    color: #ffd61a;
+}
+
+.cheese{
+    margin-bottom: 80px;
+}
+
+.cheese p{
+    font-size: 16px;
+    text-align: center;
+}
+
+.cheese p:nth-child(5){
+    font-size: 16px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.main2 .img{
+    width:1200px;
+    display: flex;
+    margin: 0 auto;
+}
+
+
+.main2 img{
+    width:25%;
+}
+
+.content1{
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 30px;
+    font-weight: bold;
+
+}
+
+.content2{
+    text-align: center;
+    padding-bottom: 60px;
+}
+/* 
+.content3{
+    display: flex;
+} */
+
+.content3 h2{
+    font-weight: bold;
+
+}
+
+.content3{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #fafafa;
+
+}
+
+.content4 {
+    display: flex;
+    
+}
+
+.content4:nth-child(even) {
+    flex-direction: row-reverse;   
+    
+}
+
+.content4text{
+    width: 480px;
+    text-align: left;
+    margin: auto 0;
+    padding-left: 50px;
+}
+
+.content4text:nth-child(even){
+    padding-right: 50px;
+
+}
+
+.content4 img{
+    width: 600px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.content4 p{
+    margin-top: 40px;
+    line-height: 1.5;
+}
+
+.content5{
+    padding-bottom: 60px;
+}
+
+
+.NEWS {
+    font-size: 24px;
+    text-align: center;
+    padding: 60px;
+
+}
+
+.NEWS p{
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+.content__items {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.content__item {
+    margin-right: 30px;
+    width: 300px;
+}
+
+.content__item:hover {
+    opacity: 0.8;
+    transition: 0.5s;
+   }
+
+.content__item:last-child {
+    margin-right: 0px;
+}
+
+.hi{
+    padding-top: 30px;
+    padding-bottom: 24px;
+}
+
+.bun{
+    line-height: 1.5;
+}
+
+.botan{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.btn-square-shadow {
+    font-size: 18px;
+    width: 300px;
+    height: 60px;
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #ffd61a;/*ボタン色*/
+    color: #FFF;
+    border-radius: 3px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 60px;
+  }
+
+  .btn-square-shadow:hover {
+   opacity: 0.8;
+   transition: 0.5s;
+  }
+
+.content6{
+    background-color: #fafafa;
+    width: 1200px;
+    margin: auto;
+}
+
+.ACCESS {
+    font-size: 24px;
+    text-align: center;
+    padding: 60px;
+
+}
+
+.ACCESS p{
+    font-size: 18px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.ggmap {
+position: relative;
+padding-bottom: 60px;
+padding-top: 30px;
+height: 0;
+overflow: hidden;
+}
+ 
+.ggmap iframe,
+.ggmap object,
+.ggmap embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+.cheeseaca{
+    padding-bottom: 60px;
+    padding-left: 300px;
+    width: 1200px;
+    font-size: 18px;
+}
+
+table tr{
+    text-align: left;
+}
+
+table td{
+    width: 300px;
+    padding: 15px 10px;
+}
+
+.content7{
+    width: 1200px;
+    margin: auto;
+}
+
+
+.CONTACT{
+    width: 1200px;
+    text-align: center;
+    line-height: 1.5;
+    padding-bottom: 140px;
+}
+
+.CONTACT h2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.content7 p:nth-child(2) {
+    padding-bottom: 60px;
+}
+
+.content7 p:nth-child(4) {
+    padding-bottom: 30px;
+}
+
+.content7 p:nth-child(6) {
+    padding-bottom: 70px;
+}
+
+.hr{
+    width: 328px;
+    height: 36px;
+    color: #bfbfbf;
+}
+
+.sent{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 140px;
+}
+
+.form th:nth-child(even) {
+    padding-bottom: 8px;
+    width: 1200px;
+}
+
+
+#footer{
+    width: 1200px;
+    padding: 30px 30px;
+    background-color: #707070;
+    margin: 0 auto;
+
+}
+
+#footer p{
+    text-align: center;
+}
